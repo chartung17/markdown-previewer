@@ -10,4 +10,24 @@ body {
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+  background: aliceblue;
+  display: inline-block;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  text-decoration: underline;
+}
+
+blockquote {
+  border-left-style: solid;
+  border-width: 2px;
+  padding-left: 3px;
+  color: dimgray;
+}
+
+table, th, td {
+  border-style: solid;
+  border-width: 2px;
+  border-collapse: collapse;
+  padding: 3px;
 }
